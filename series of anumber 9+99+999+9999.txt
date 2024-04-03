@@ -1,0 +1,17 @@
+#include <stdio.h> 
+int main() {
+    long int n, i, t = 9; 
+      
+    printf("Input the number or terms :"); 
+    scanf("%ld", &n); 
+
+    for (i = 1; i <= n; i++) 
+    {
+        
+        printf("%ld ", t); 
+        t = t * 10 + 9; 
+    }
+
+
+    return 0;
+}
